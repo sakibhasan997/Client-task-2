@@ -1,0 +1,16 @@
+.top-navbar ul li a {
+    font-weight: 700;
+    color: rgba(17, 17, 17, 0.87);
+    font-size: 13px;
+    transition: ease 0.3s;
+}
+.top-navbar ul li:hover a {
+    color: rgb(153, 153, 153);
+}
+.main-menu li a {
+    background-color: transparent;
+    padding: 5px 10px 5px 10px;
+    font-weight: 700;
+    font-size: 17px;
+    color: rgba(26, 26, 26, 0.788);
+}
