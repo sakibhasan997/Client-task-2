@@ -7,10 +7,15 @@
 .top-navbar ul li:hover a {
     color: rgb(153, 153, 153);
 }
-.main-menu li a {
+.main-menu span a {
     background-color: transparent;
     padding: 5px 10px 5px 10px;
     font-weight: 700;
     font-size: 17px;
     color: rgba(26, 26, 26, 0.788);
+    transition: ease 0.5s;
+}
+.main-menu span:hover  {
+    border-bottom: 1px solid black;
+    transition: ease 0.5s;
 }

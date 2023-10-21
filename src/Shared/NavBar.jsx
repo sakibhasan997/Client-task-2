@@ -4,52 +4,54 @@ import headLogo from "../assets/Project-Photo/Jumpman_logo.svg.png";
 import headLogo2 from "../assets/Project-Photo/head-logo-2.jpg";
 import "./NavBar.css";
 import { Link, NavLink } from "react-router-dom";
+import { FaSearch, FaShoppingBag } from "react-icons/fa";
+import { FaRegHeart } from "react-icons/fa6";
 
 const NavBar = () => {
     
   const navLink = (
     <>
-      <li>
+      <span>
         <Link className="font-sans" title=" New & Featured" to="/">
           New & Featured
         </Link>
-      </li>
-      <li>
+      </span>
+      <span>
         <Link className="font-sans" title="Men" to="/">
           Men
         </Link>
-      </li>
-      <li>
+      </span>
+      <span>
         <Link className="font-sans" title="Women" to="/">
           Women
         </Link>
-      </li>
-      <li>
+      </span>
+      <span>
         <Link className="font-sans" title="Kids" to="/">
           Kids
         </Link>
-      </li>
-      <li>
+      </span>
+      <span>
         <Link className="font-sans" title="Accessories" to="/">
           Accessories
         </Link>
-      </li>
-      <li>
+      </span>
+      <span>
         <Link className="font-sans" title="Sale" to="/">
           Sale
         </Link>
-      </li>
+      </span>
     </>
   );
 
   return (
     <>
       <div className="navbar min-h-[36px] max-w-[1920px] px-[36px] bg-[#f5f5f5] flex justify-between ">
-        <div className="flex gap-5 ">
+        <div className="flex gap-5  ">
           <img className="h-6 w-6 cursor-pointer" src={headLogo} alt="" />
           <img className="h-6 w-6 cursor-pointer" src={headLogo2} alt="" />
         </div>
-        <div className="top-navbar ">
+        <div className="top-navbar hidden sm:block">
           <ul className="flex gap-3">
             <li>
               <a href="#">Nike Refurbished</a>
@@ -106,37 +108,17 @@ const NavBar = () => {
             {navLink}
           </ul>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end items-center">
+          <div className="relative">
+            <input className="bg-gray-100 text-gray-600 p-2 rounded-2xl hidden md:block" type="text" name="Search" placeholder="Search..." id="" />
+            <FaSearch className="absolute -top-2 md:top-3 right-4 text-gray-700 text-xl cursor-pointer"  />
+          </div>
           <button className="btn btn-ghost btn-circle">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor">
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-              />
-            </svg>
+            <FaRegHeart className="text-xl"/>
           </button>
           <button className="btn btn-ghost btn-circle">
             <div className="indicator">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
-                />
-              </svg>
+              <FaShoppingBag className="text-xl"/>
               <span className="badge badge-xs badge-primary indicator-item"></span>
             </div>
           </button>
