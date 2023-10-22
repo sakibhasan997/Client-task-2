@@ -17,5 +17,6 @@
 }
 .main-menu span:hover  {
     border-bottom: 1px solid black;
+    color: black;
     transition: ease 0.5s;
 }

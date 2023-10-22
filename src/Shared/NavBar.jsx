@@ -9,6 +9,7 @@ import { FaRegHeart } from "react-icons/fa6";
 
 const NavBar = () => {
     
+  // Nav Items Start
   const navLink = (
     <>
       <span>
@@ -42,10 +43,12 @@ const NavBar = () => {
         </Link>
       </span>
     </>
+    // Nav Items End
   );
 
   return (
     <>
+    {/* Top Menu section Start */}
       <div className="navbar min-h-[36px] max-w-[1920px] px-[36px] bg-[#f5f5f5] flex justify-between ">
         <div className="flex gap-5  ">
           <img className="h-6 w-6 cursor-pointer" src={headLogo} alt="" />
@@ -75,6 +78,9 @@ const NavBar = () => {
           </ul>
         </div>
       </div>
+    {/* Top Menu section End */}
+
+    {/* Main Menu Section Start */}
       <div className="navbar max-w-[1920px] px-[36px]">
         <div className="navbar-start">
           <div className="dropdown">
@@ -124,6 +130,8 @@ const NavBar = () => {
           </button>
         </div>
       </div>
+    {/* Main Menu Section End */}
+
     </>
   );
 };
