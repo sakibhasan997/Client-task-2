@@ -79,7 +79,7 @@ const Home = () => {
           </h2>
           <p className="font-medium text-black font-sans pb-5">
             Members: Sign in and use code MEMBER20 to save 20% off <br /> select
-            styles. Exclusions apply.{" "}
+            styles. Exclusions apply.
           </p>
           <button className="my-btn">Shop Now</button>
         </div>
@@ -87,7 +87,12 @@ const Home = () => {
       {/* Banner Section End */}
 
       {/* Bottom Banner Section start */}
-      <div></div>
+      <div className="flex w-full h-[550px] my-[48px]">
+        <img
+          src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1583,c_limit/40c699e6-8605-493f-bece-0842c207b526/nike-just-do-it.png"
+          alt=""
+        />
+      </div>
       {/* Bottom Banner Section End */}
     </>
   );
