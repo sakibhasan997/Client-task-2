@@ -39,6 +39,8 @@
 }
 
 .my-btn:hover {
+  background-color: #333333;
+  border-color: #333333;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
 }
@@ -46,4 +48,53 @@
 .my-btn:active {
   box-shadow: none;
   transform: translateY(0);
+}
+/* White btn */
+.my-btn-white {
+  appearance: none;
+  background-color: #fffefe;
+  border: 2px solid #fafafa;
+  border-radius: 35px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 25px;
+  min-width: 0;
+  outline: none;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+
+.my-btn-white:disabled {
+  pointer-events: none;
+}
+
+.my-btn-white:hover {
+  background-color: #333333;
+  border-color: #333333;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.my-btn-white:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+/* Slider Styles */
+.my-swiper > .swiper-wrapper > .swiper-slide {
+  width: 500px !important;
+  margin-right: 0px;
 }
