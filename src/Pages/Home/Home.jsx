@@ -127,7 +127,7 @@ const Home = () => {
               clickable: true,
             }}
             modules={[FreeMode, Pagination]}
-            className="mySwiper  my-5 ml-12 my-swiper">
+            className="mySwiper  my-5 ml-12 my-swiper cursor-pointer">
             <SwiperSlide
               className="w-[495px] ml-12"
               style={{ width: "495px", marginRight: "8px" }}>

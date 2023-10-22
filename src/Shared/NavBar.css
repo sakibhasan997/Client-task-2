@@ -1,7 +1,7 @@
 .top-navbar ul li a {
     font-weight: 700;
     color: rgba(17, 17, 17, 0.87);
-    font-size: 13px;
+    font-size: 12px;
     transition: ease 0.3s;
 }
 .top-navbar ul li:hover a {

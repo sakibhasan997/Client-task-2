@@ -1,0 +1,11 @@
+.footer-menu-text p {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: large;
+    color: gray;
+    transition: ease 0.3s;
+}
+.footer-menu-text p:hover {
+    color: black;
+    cursor: pointer;
+}
