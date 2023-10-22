@@ -1,10 +1,4 @@
-.main-banner-section {
-    background-image: url('https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1583,c_limit/8eb285a9-ccad-4840-af51-fce7432e89eb/nike-just-do-it.jpg');
-    height: 330px;
-    width: 100%;
-    background-repeat: no-repeat;
-    cursor: pointer;
-}
+
 
 /* CSS */
 .my-btn {
@@ -84,6 +78,7 @@
 .my-btn-white:hover {
   background-color: #333333;
   border-color: #333333;
+  color: #fff;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
 }
