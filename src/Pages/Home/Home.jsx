@@ -21,7 +21,7 @@ import Shoes from "../../Component/Shoes";
 const Home = () => {
   return (
     <>
-      {/* Top Slider Section Start */}
+      {/* Top Slider Section Start */} 
       <Swiper
         className="w-full h-16 text-center mx-auto bg-[#f5f5f5]"
         // install Swiper modules
