@@ -14,7 +14,7 @@ const Footer = () => {
     <>
       {/* Top Footer section Start */}
       <div className="top-footer-main-section my-20">
-        <div className="text-section w-[920px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-4">
+        <div className="text-section md:w-[920px] mx-auto grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="item-section">
             <h4 className="font-sans font-medium text-xl text-gray-700 mb-5">
               Featured
@@ -167,7 +167,8 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="footer-right-item flex justify-end gap-5 ">
+            {/* Footer link section */}
+            <div className="footer-right-item flex justify-start md:justify-end gap-5 ">
               <div className="w-10 h-10 flex items-center justify-center text-xl bg-gray-500 rounded-full hover:bg-white duration-300 cursor-pointer text-black">
                 <FaTwitter />
               </div>
@@ -185,7 +186,7 @@ const Footer = () => {
 
           {/* CopyRight Section */}
           <div className="footer-bottom-body mt-10 grid grid-cols-1 md:grid-cols-2 justify-between">
-            <div className="flex items-center">
+            <div className="flex flex-col md:flex-row items-start md:items-center pb-4 md:pb-0">
               <span className="mr-5 font-sans font-medium text-sm cursor-pointer text-white flex gap-3 items-center">
                 <FaLocationDot /> United States
               </span>
@@ -193,8 +194,8 @@ const Footer = () => {
                 © 2023 Nike, Inc. All Rights Reserved
               </span>
             </div>
-            <div className="text-end">
-              <div className="flex justify-end gap-5">
+            <div className=" text-start md:text-end">
+              <div className="flex flex-col md:flex-row justify-end gap-5">
                 <p className="font-sans font-medium text-xs text-gray-400 hover:text-gray-50 cursor-pointer">
                   Guides
                 </p>

@@ -49,7 +49,7 @@ const NavBar = () => {
   return (
     <>
     {/* Top Menu section Start */}
-      <div className="navbar min-h-[36px] max-w-[1920px] px-[36px] bg-[#f5f5f5] flex justify-between ">
+      <div className="navbar min-h-[36px]  px-[36px] bg-[#f5f5f5] flex justify-between ">
         <div className="flex gap-5  ">
           <img className="h-6 w-6 cursor-pointer" src={headLogo} alt="" />
           <img className="h-6 w-6 cursor-pointer" src={headLogo2} alt="" />
@@ -81,7 +81,7 @@ const NavBar = () => {
     {/* Top Menu section End */}
 
     {/* Main Menu Section Start */}
-      <div className="navbar max-w-[1920px] px-[36px]">
+      <div className="navbar  px-[36px]">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -101,7 +101,7 @@ const NavBar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              className="menu menu-sm dropdown-content mt-3 z-50 p-2 shadow bg-base-100 rounded-box w-52">
               {navLink}
             </ul>
           </div>

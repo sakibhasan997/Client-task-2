@@ -34,10 +34,10 @@ const Home = () => {
           disableOnInteraction: false,
         }}>
         <SwiperSlide className="text-black font-normal py-1">
-          <h3 className="text-lg font-sans font-medium">
+          <h3 className=" md:text-lg font-sans font-medium ">
             New Styles Added: 20% Off Select Styles{" "}
           </h3>
-          <a className="underline text-sm font-medium" href="/">
+          <a className="underline text-xs md:text-sm font-medium" href="/">
             Sign in and use code MEMBER20 at checkout.
           </a>
         </SwiperSlide>
@@ -72,31 +72,40 @@ const Home = () => {
 
       {/* Banner Section Start */}
       <div className="main-banner-section max-w-[1920px] relative">
-        <img className="w-full"
+        <img className="w-full hidden md:block" 
           src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1583,c_limit/8eb285a9-ccad-4840-af51-fce7432e89eb/nike-just-do-it.jpg"
           alt=""
         />
-        <div className="absolute left-8 bottom-10">
-          <h4 className="text-black font-medium text-xl font-sans">
+        <img className="max-w-[339px]  mx-auto block md:hidden" 
+          src="https://static.nike.com/a/images/f_auto/dpr_3.0,cs_srgb/w_342,c_limit/d63706b8-96a6-4213-a882-5feb1cbbd790/nike-just-do-it.jpg"
+          alt=""
+        />
+        <div className="absolute left-8 bottom-5 md:bottom-10">
+          <h4 className="text-black font-medium text-lg md:text-xl font-sans hidden md:block">
             NEW STYLES ADDED
           </h4>
-          <h2 className="font-extrabold font-sans text-black pb-4 text-7xl">
+          <h2 className="md:font-extrabold font-sans text-black md:pb-4 text-2xl md:text-7xl hidden md:block">
             20% OF SELECT STYLES
           </h2>
-          <p className="font-medium text-black font-sans pb-5">
+          <p className="font-medium text-black font-sans md:pb-5 hidden md:block">
             Members: Sign in and use code MEMBER20 to save 20% off <br /> select
             styles. Exclusions apply.
           </p>
-          <button className="my-btn">Shop Now</button>
+          <button className="my-btn md:my-btn hidden md:block">Shop Now</button>
         </div>
       </div>
       {/* Banner Section End */}
 
       {/* Bottom Banner Section start */}
-      <div className="max-w-[1920px] h-[550px] my-[48px]">
+      <div className="max-w-[1920px] h-[550px] mt-[50px] md:my-[48px]">
         <img
-          className="w-full"
+          className="w-full hidden md:block"
           src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1583,c_limit/40c699e6-8605-493f-bece-0842c207b526/nike-just-do-it.png"
+          alt=""
+        />
+        <img
+          className="max-w-[339px]  mx-auto block md:hidden"
+          src="https://static.nike.com/a/images/f_auto/dpr_3.0,cs_srgb/w_342,c_limit/c7eb68e0-8d89-4577-a5bd-93afc717eed0/nike-just-do-it.png"
           alt=""
         />
       </div>
@@ -106,11 +115,11 @@ const Home = () => {
       <div className="trending-main-section">
         <div className="trending-title text-center mb-6">
           <h2
-            className="font-extrabold font-sans text-black pb-4 text-7xl"
+            className="font-extrabold font-sans text-black md:pb-4 text-3xl md:text-7xl"
             style={{ letterSpacing: "-3px" }}>
             NEW ARRIVALS
           </h2>
-          <p className="font-sans font-medium text-lg my-6">
+          <p className="font-sans font-medium text-lg my-2 md:my-6">
             Featuring the Air Force 1 Pro Tech.
           </p>
           <button className="my-btn">Shop</button>
@@ -173,14 +182,18 @@ const Home = () => {
       {/* Trending Item Section End */}
 
       {/* Featured Section Start */}
-      <div className="featured-section max-w-[1824px] ">
+      <div className="featured-section max-w-[1824px] mx-auto">
         <div className="featured-title mt-14 mb-6">
           <h4 className="ml-[45px] font-sans font-medium text-2xl">Featured</h4>
         </div>
-        <div className="featured-body flex justify-center mb-8 gap-5 mx-auto">
+        <div className="featured-body flex flex-col md:flex-row justify-center mb-8 gap-5 mx-auto">
           <div className="ft-first-img relative">
-            <img
+            <img className="hidden md:block"
               src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_738,c_limit/b5225881-df20-4bd6-a3dc-bb8504d04b75/nike-just-do-it.jpg"
+              alt=""
+            />
+            <img className="block md:hidden"
+              src="https://static.nike.com/a/images/f_auto/dpr_3.0,cs_srgb/w_342,c_limit/4780c93f-acfd-4f16-a677-68ecf0b72e9d/nike-just-do-it.jpg"
               alt=""
             />
             <div className="absolute bottom-14 left-14">
@@ -194,8 +207,12 @@ const Home = () => {
             </div>
           </div>
           <div className="ft-second-img relative">
-            <img
+            <img className="hidden md:block"
               src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_738,c_limit/f8728d44-9360-4bdd-b1b5-a3a57f108f34/nike-just-do-it.jpg"
+              alt=""
+            />
+            <img className="block md:hidden"
+              src="https://static.nike.com/a/images/f_auto/dpr_3.0,cs_srgb/w_342,c_limit/1ec7251c-7362-4733-8592-f535d3018b08/nike-just-do-it.jpg"
               alt=""
             />
             <div className="absolute bottom-14 left-14">
