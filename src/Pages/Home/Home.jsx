@@ -113,7 +113,7 @@ const Home = () => {
       {/* Bottom Banner Section End */}
 
       {/* Trending Item Section Start */}
-      <div className="trending-main-section mx-5 md:ml-12">
+      <div className="trending-main-section mx-5 md:ml-4">
         <div className="trending-title text-center mb-6">
           <h2
             className="font-extrabold font-sans text-black md:pb-4 text-3xl md:text-7xl"
@@ -378,7 +378,7 @@ const Home = () => {
       {/* Sport Section End  */}
 
       {/* Fall Styles section Start  */}
-      <div className="Styles-item-slider mx-5 md:ml-12">
+      <div className="Styles-item-slider mx-5 md:ml-0">
         <h4 className="md:ml-[45px] font-sans font-medium text-2xl mt-20">
           New Fall Styles
         </h4>
@@ -538,7 +538,7 @@ const Home = () => {
       {/* Fall Styles Section End  */}
 
       {/* Membership section Start  */}
-      <div className="Membership-item-slider mx-5 md:ml-12">
+      <div className="Membership-item-slider mx-5 md:ml-0">
         <h4 className="md:ml-[45px] font-sans font-medium text-2xl mt-20">
           Nike Membership
         </h4>
