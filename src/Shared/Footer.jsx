@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <>
       {/* Top Footer section Start */}
-      <div className="top-footer-main-section my-20">
+      <div className="top-footer-main-section my-20 px-5">
         <div className="text-section md:w-[920px] mx-auto grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="item-section">
             <h4 className="font-sans font-medium text-xl text-gray-700 mb-5">
