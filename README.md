@@ -1,8 +1,25 @@
-# React + Vite
+# This is my frontend project ( Nike-Brand )
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Hosted in Netlify -> [Nike-Brand](https://nike704.netlify.app/)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+- Nike Brand
+
+
+## frontend technologies (frameworks, libraries) 
+- react
+- tailwind css
+- swiper
+- react-id-swiper
+- react-icons
+- daisyui
+
+
+## This website feature
+
+- The Website Making the Clone Nike Brand UI Design
+- Website has a navbar added
+- Included the footer section 
+- Background image banner section
+- Meaning full commit
